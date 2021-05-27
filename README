@@ -1,0 +1,82 @@
+chiho.song
+777713736
+Chiho, Song
+
+I discussed the exercise with: About GUI
+
+=============================
+=  README for ex12=
+make my own game.
+=============================
+
+
+==================
+=  Description:=
+The most of extra descriptions are in my code.
+Class game:
+
+make_move(self, column):
+"""
+this func makes move.
+this func puts player number on list.
+"""
+
+check_winner_col(self, row, col, player):
+"""
+this function checks the winner of col part.
+"""
+
+check_winner_row(self, row, col, player):
+"""
+this function checks the row part of the winner.
+"""
+
+check_winner_left_up(self, row, col, player):
+"""
+this function checks the left up to right down part of winner.
+"""
+
+check_winner_left_down(self, row, col, player):
+"""
+this function checks left down to right up part of the winner.
+"""
+
+get_winner(self):
+"""
+according to 4 functions of above it checks the winner.
+"""
+
+get_player_at(self, row, col):
+"""
+If I put parameters row and col then it finds which player is on that coordinate.
+"""
+
+get_current_player(self):
+"""
+according to how many turns it had, it thinks who is the current player.
+"""
+
+get_winner_cordi(self):
+"""
+this function finds where the winner is.
+:return: lst of cordi that where the winner is.
+"""
+
+Class AI:
+
+find_legal_move(self, timeout=None):
+"""
+if it returns to lst of -1 then there are no place to put disc.
+"""
+
+Class GUI:
+
+every explanation will be on python.
+==================
+
+
+======================
+=  Special Comments:  =
+======================
+
+What's up Doc?
