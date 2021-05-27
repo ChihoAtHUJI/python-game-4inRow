@@ -1,3 +1,4 @@
 .DS_Store
 /venv
 /helper/__pycache__
+/.idea
